@@ -1,6 +1,12 @@
 parameters:
     app.name: yolo
     debug: false
+    username: root
+    password: test
+    database_name: demo
+
+import:
+  - { resource: integration.yml }
 
 services:
     front_controller:

@@ -1,0 +1,26 @@
+services:
+    yolo_demo_controller:
+        class: Simulator\Infrastructure\Yolo\Controller\ExamController
+        arguments:
+            - @simulator_shows_all_exams_usecase
+
+    simulator_shows_all_exams_usecase:
+        class: Simulator\Domain\UseCase\ShowsAllExams
+        arguments:
+            - @exam_repository
+            - @exams_converter
+
+    exams_converter:
+        class: Simulator\Domain\Services\ExamsConverter
+
+    exam_repository:
+        class: Simulator\Infrastructure\Persistence\X\PdoExamRepository
+        arguments:
+            - @pdo_service
+
+    pdo_service:
+        class: PDO
+        arguments:
+            - "mysql:host=localhost;dbName="~%database_name%
+            - %username%
+            - %password%
