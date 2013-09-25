@@ -9,6 +9,12 @@
             "email": "igor@wiedler.ch"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:cordoval/symfony2simulator"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "symfony/config": "~2.3",
@@ -17,7 +23,9 @@
         "symfony/http-foundation": "~2.3",
         "symfony/http-kernel": "~2.3",
         "symfony/routing": "~2.3",
-        "symfony/yaml": "~2.3"
+        "symfony/yaml": "~2.3",
+        "cordoval/symfony2simulator": "dev-master@dev"
+
     },
     "require-dev": {
         "monolog/monolog": "~1.3",
