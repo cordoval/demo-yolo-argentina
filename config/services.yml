@@ -110,6 +110,6 @@ services:
     pdo_service:
         class: PDO
         arguments:
-            - "mysql:host=localhost;dbName=demo"
+            - "mysql:dbname=demo;host=127.0.0.1"
             - "root"
             - "test"
