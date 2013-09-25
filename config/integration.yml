@@ -14,7 +14,7 @@ services:
         class: Simulator\Domain\Services\ExamsConverter
 
     exam_repository:
-        class: Simulator\Infrastructure\Persistence\X\PdoExamRepository
+        class: Simulator\Infrastructure\Persistence\PDO\PdoExamRepository
         arguments:
             - @pdo_service
 
