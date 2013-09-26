@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:cordoval/symfony2simulator"
+            "url": "git@github.com:cordoval/ExamSimulator"
         }
     ],
     "require": {
@@ -24,7 +24,7 @@
         "symfony/http-kernel": "~2.3",
         "symfony/routing": "~2.3",
         "symfony/yaml": "~2.3",
-        "cordoval/symfony2simulator": "dev-master@dev"
+        "cordoval/exam-simulator": "dev-master@dev"
 
     },
     "require-dev": {
