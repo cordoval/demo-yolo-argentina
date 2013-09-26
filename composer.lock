@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cordoval/symfony2simulator.git",
-                "reference": "0e85f5353654b7b8422372bf9d3fc6df77ff2aa6"
+                "reference": "4e5b3c23db29c827cd7287877b78dac35f1efc7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cordoval/symfony2simulator/zipball/0e85f5353654b7b8422372bf9d3fc6df77ff2aa6",
-                "reference": "0e85f5353654b7b8422372bf9d3fc6df77ff2aa6",
+                "url": "https://api.github.com/repos/cordoval/symfony2simulator/zipball/4e5b3c23db29c827cd7287877b78dac35f1efc7c",
+                "reference": "4e5b3c23db29c827cd7287877b78dac35f1efc7c",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "source": "https://github.com/cordoval/symfony2simulator/tree/master",
                 "issues": "https://github.com/cordoval/symfony2simulator/issues"
             },
-            "time": "2013-09-25 04:31:19"
+            "time": "2013-09-26 00:05:27"
         },
         {
             "name": "doctrine/annotations",
@@ -532,16 +532,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.1",
+            "version": "v2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "0902c606b4df1161f5b786ae89f37b71380b1f23"
+                "reference": "4fb225f4e315c11aa6d8935b1c0ceaf48ba39f1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/0902c606b4df1161f5b786ae89f37b71380b1f23",
-                "reference": "0902c606b4df1161f5b786ae89f37b71380b1f23",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/4fb225f4e315c11aa6d8935b1c0ceaf48ba39f1f",
+                "reference": "4fb225f4e315c11aa6d8935b1c0ceaf48ba39f1f",
                 "shasum": ""
             },
             "require": {
@@ -636,7 +636,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-06-11 11:46:38"
+            "time": "2013-08-27 08:58:24"
         },
         {
             "name": "twig/twig",
